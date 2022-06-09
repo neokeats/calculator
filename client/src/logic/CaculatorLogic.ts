@@ -14,6 +14,7 @@ export enum OperationKind {
 }
 
 
+
 export type CalculatorInput =
 | {type : InputKind.Number, value :number}  
 | {type : InputKind.Operation, operation :OperationKind}  
